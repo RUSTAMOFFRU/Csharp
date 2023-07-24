@@ -4,17 +4,11 @@
 
 
 Console.WriteLine("Введите число");
-
 int num = Convert.ToInt32(Console.ReadLine());
-
 if (num < 2) Console.Write("Тут нет чётных чисел");
-
 int num1 = 2;
-
 while (num1 <= num)
 {
     Console.Write($"{num1}, ");
     num1 = num1 + 2;
 }
-
-

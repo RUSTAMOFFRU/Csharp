@@ -3,26 +3,17 @@
 // a = 2 b = 10 -> max = 10
 // a = -9 b = -3 -> max = -3
 
-
 Console.WriteLine("Введите первое число для сравнения");
-
-int num1=Convert.ToInt32(Console.ReadLine());
-
+int num1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе число для сравнения");
-
-int num2=Convert.ToInt32(Console.ReadLine());
-
-if (num1>num2)
+int num2 = Convert.ToInt32(Console.ReadLine());
+if (num1 > num2)
 {
-Console.WriteLine($"Первое число {num1} большее");
-Console.WriteLine($"Второе число {num2} меньшее");
-
-;
+    Console.WriteLine($"Первое число {num1} большее");
+    Console.WriteLine($"Второе число {num2} меньшее");
 }
 else
- {
- Console.WriteLine($"Второе число {num2} большее");
-Console.WriteLine($"Первое число {num1} меньшее");
-
- }
-
+{
+    Console.WriteLine($"Второе число {num2} большее");
+    Console.WriteLine($"Первое число {num1} меньшее");
+}
